@@ -1,0 +1,26 @@
+{
+	"name": "p2p-video-call",
+	"version": "1.0.0",
+	"description": "A free, peer-to-peer, encrypted, open-source video calling for the web.",
+	"main": "start.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node start.js",
+		"postinstall": "node postinstall.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JoeJoeyMa/p2p-video-call.git"
+	},
+	"keywords": [
+		"webrtc",
+		"socket.io",
+		"video"
+	],
+	
+	"dependencies": {
+		"express": "^4.18.2",
+		"socket.io": "^4.5.3",
+		"vue": "^3.2.41"
+	}
+}
