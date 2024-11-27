@@ -1,7 +1,6 @@
-#  P2P Video Call Application
+#  STUN Video Call Application
 
-A free, peer-to-peer group video call application for the web. No signups required. No downloads needed. Works in all major browsers.
-
+WebRTC IM based on Nodejs + socket.io + express.suport p2p group mode video call and message,stands for Web Real-Time Communications  exchange connection data in the form of SDP objects but never touches the data itself, that is actually transmitted between the peers themselves via STUN and TURN servers
 ## Features
 
 ### Core Functionality
@@ -112,16 +111,5 @@ docker-compose up
 - Mesh topology means each peer connects directly to every other peer
 - Bandwidth usage increases with number of participants
 
-## License
-MIT License - See LICENSE file for details
-
-## Privacy
-- No data storage on servers
-- Peer-to-peer encrypted communication
-- No registration required
-- Temporary room-based sessions
-```
-
-The README provides a comprehensive overview of the project's features, technical stack, and implementation details while maintaining a clear structure that helps users and developers understand the application's capabilities and requirements.
 
 

@@ -1,8 +1,4 @@
-/**
- * A simple signalling server implementation using socket.io.
- * This socket connection is used a signalling server as WebRTC does not support discovery of other peers.
- * User's audio, video & chat messages does not use this socket.
- */
+
 
 const express = require("express");
 const http = require("http");
